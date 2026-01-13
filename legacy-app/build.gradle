@@ -1,0 +1,4 @@
+dependencies {
+    implementation project(":legacy-wrappers")
+    implementation "javax.jdo:jdo-api:3.1"
+}

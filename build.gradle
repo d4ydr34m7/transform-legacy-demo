@@ -1,0 +1,17 @@
+allprojects {
+    repositories { mavenCentral() }
+}
+
+subprojects {
+    apply plugin: "java"
+
+    java {
+        toolchain { languageVersion = JavaLanguageVersion.of(11) } // legacy-ish baseline
+    }
+
+    dependencies {
+        testImplementation "org.junit.jupiter:junit-jupiter:5.10.2"
+    }
+
+    test { useJUnitPlatform() }
+}
