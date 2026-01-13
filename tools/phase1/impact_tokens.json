@@ -1,0 +1,222 @@
+[
+  {
+    "token": "Gradle",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "Hibernate",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "java",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "Java 11",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java 11",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "Java 12",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java 14",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java 15",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java 17",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java 17",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "Java 21",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java 21 Support",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java Platform, Standard Edition",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "javax.jdo:jdo-api",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JDO",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JDO 3",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JDO 3.1",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JDO API",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JDO API 3",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JDO API 3.1",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JPA",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JPA 3.1",
+    "impact_score": 10,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JUnit",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JUnit 5",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JUnit 5.10",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JUnit Jupiter",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JUnit Jupiter 5.10",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "org.junit.jupiter:junit-jupiter",
+    "impact_score": 10,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "API",
+    "impact_score": 8,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "Java 21",
+    "impact_score": 8,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "Java 5",
+    "impact_score": 8,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "Java 8",
+    "impact_score": 8,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "Java Data Objects",
+    "impact_score": 8,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "javax.jdo:jdo-api:3.1",
+    "impact_score": 8,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "javax.jdo:jdo-api:3.1",
+    "impact_score": 8,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JDO 1.0",
+    "impact_score": 8,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JDO 2.0",
+    "impact_score": 8,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JPA 3.x",
+    "impact_score": 8,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "org.junit.jupiter:junit-jupiter:5.10.2",
+    "impact_score": 8,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "Apache",
+    "impact_score": 2,
+    "source": "dependency-analysis.md"
+  },
+  {
+    "token": "JDO PersistenceManager",
+    "impact_score": 2,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JDO PersistenceManager 3",
+    "impact_score": 2,
+    "source": "outdated-components.md"
+  },
+  {
+    "token": "JPA 3",
+    "impact_score": 2,
+    "source": "outdated-components.md"
+  }
+]
