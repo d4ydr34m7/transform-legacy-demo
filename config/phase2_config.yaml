@@ -1,0 +1,49 @@
+phase: 2
+mode: design-only
+
+scope:
+  included_modules:
+    - legacy-app
+  excluded_modules:
+    - legacy-wrappers
+
+frozen_areas:
+  - legacy-wrappers/**
+  - "**/com/verafin/**"
+  - "**/*Queries.java"
+  - "**/*JdoManager.java"
+
+allowed_transformations:
+  persistence:
+    from: JDO
+    to: JPA
+    scope: legacy-app/**
+    notes: >
+      Entity annotation migration is allowed.
+      Query rewriting requires manual review.
+
+  language:
+    java_upgrade:
+      from: 11
+      to: 17
+      scope: legacy-app/**
+
+guardrails:
+  execution:
+    mode: pr_only
+    schedule: nightly
+
+  approvals:
+    required_reviewers: 1
+    roles:
+      - tech_lead
+    block_if:
+      - validation_missing
+      - frozen_area_touched
+      - wrapper_rules_missing
+
+  pr_checks:
+    must_include:
+      - migrationguide.md
+      - decision_log.md
+    max_files_changed: 50
